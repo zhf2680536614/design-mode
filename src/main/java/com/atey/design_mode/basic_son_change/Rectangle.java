@@ -1,5 +1,7 @@
 package com.atey.design_mode.basic_son_change;
 
+import com.atey.design_mode.basic_son_change.service.Quadrilateral;
+
 public class Rectangle implements Quadrilateral {
 
     private double length;

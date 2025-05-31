@@ -1,11 +1,6 @@
 package com.atey.design_mode.basic_son_change;
 
-/**
- * 里氏代换原则
- *  任何基类可以出现的地方，子类一定可以出现
- *  子类可以扩展父类的功能，但不能改变父类原有的功能
- *  如果需要重写父类的方法，可以在父类中定义抽象方法
- */
+import com.atey.design_mode.basic_son_change.service.Quadrilateral;
 
 public class RectangleDemo {
     public static void main(String[] args) {

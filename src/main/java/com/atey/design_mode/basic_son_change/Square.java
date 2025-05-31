@@ -1,6 +1,8 @@
 package com.atey.design_mode.basic_son_change;
 
-public class Square implements Quadrilateral{
+import com.atey.design_mode.basic_son_change.service.Quadrilateral;
+
+public class Square implements Quadrilateral {
 
     private double side;
 
