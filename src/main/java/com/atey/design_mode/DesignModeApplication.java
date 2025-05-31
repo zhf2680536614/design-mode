@@ -1,4 +1,4 @@
-package com.atey.designmode;
+package com.atey.design_mode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

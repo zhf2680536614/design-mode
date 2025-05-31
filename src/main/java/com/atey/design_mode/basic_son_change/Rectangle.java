@@ -1,4 +1,4 @@
-package com.atey.designmode.BasicSonChange;
+package com.atey.design_mode.basic_son_change;
 
 public class Rectangle implements Quadrilateral {
 

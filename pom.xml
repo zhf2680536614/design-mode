@@ -54,7 +54,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.atey.designmode.DesignModeApplication</mainClass>
+                    <mainClass>com.atey.design_mode.DesignModeApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

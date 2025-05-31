@@ -1,4 +1,4 @@
-package com.atey.designmode.open_close;
+package com.atey.design_mode.open_close;
 
 /**
  * 软件设计模式

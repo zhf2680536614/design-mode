@@ -1,4 +1,4 @@
-package com.atey.designmode;
+package com.atey.design_mode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
