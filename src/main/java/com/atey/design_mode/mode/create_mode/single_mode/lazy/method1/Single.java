@@ -1,16 +1,20 @@
 package com.atey.design_mode.mode.create_mode.single_mode.lazy.method1;
-// 懒汉式：只有被使用时创建
+
+//双重检查锁 优化读操作的性能
 public class Single {
-    //私有构造方法
     private Single(){}
 
-    private static Single single;
+    //volatile保证有序性
+    private static volatile Single instance;
 
-    //添加同步锁，解决懒汉式引发的线程安全问题
-    public static synchronized Single getInstance(){
-        if(single == null){
-            single = new Single();
+    public static Single getInstance(){
+        if(instance == null){
+            synchronized(Single.class){
+                if(instance == null){
+                    instance = new Single();
+                }
+            }
         }
-        return single;
+        return instance;
     }
 }
