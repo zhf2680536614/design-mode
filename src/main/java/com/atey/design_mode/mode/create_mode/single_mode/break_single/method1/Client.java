@@ -15,6 +15,7 @@ public class Client {
         ObjectInputStream ois = new ObjectInputStream(fis);
         Single instance = (Single)ois.readObject();
         System.out.println(instance);
+        ois.close();
     }
 
     //将对象写入文件中
