@@ -8,6 +8,8 @@ class DesignModeApplicationTests {
 
     @Test
     void contextLoads() {
+        com.atey.design_mode.Test test = null;
+        test.print();
     }
 
 }
